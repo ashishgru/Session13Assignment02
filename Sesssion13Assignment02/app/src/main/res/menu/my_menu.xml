@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+
+        android:id="@+id/abar_contacts"
+        android:title="@string/contacts"
+        android:orderInCategory="4"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/abar_settings"
+        android:orderInCategory="5"
+        android:title="@string/settings"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/abar_status"
+        android:title="@string/status"
+        android:orderInCategory="6"
+        app:showAsAction="never"/>
+
+    <item
+
+        android:id="@+id/abar_voice"
+        android:title="@string/voice"
+        android:icon="@drawable/voice"
+        android:orderInCategory="1"
+        app:showAsAction="always"/>
+
+    <item
+
+        android:id="@+id/abar_call"
+        android:title="@string/call"
+        android:orderInCategory="2"
+        android:icon="@drawable/call"
+        app:showAsAction="always"/>
+
+    <item
+
+        android:id="@+id/abar_check"
+        android:title="@string/check"
+        android:orderInCategory="3"
+        android:icon="@drawable/check"
+        app:showAsAction="always"/>
+
+
+</menu>

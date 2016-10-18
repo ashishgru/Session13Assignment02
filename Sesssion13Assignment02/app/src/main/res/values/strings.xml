@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sesssion13Assignment02</string>
+    <string name="status">Status</string>
+    <string name="settings">Settings</string>
+    <string name="contacts">Contacts</string>
+    <string name="voice">Voice</string>
+    <string name="call">Call</string>
+    <string name="check">Check</string>
+</resources>
